@@ -3,6 +3,7 @@ import cors from 'cors';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import productosRoutes from './routes/productos.routes.js';
+import productosDbRoutes from './routes/productos.db.routes.js';
 
 const app = express();
 
@@ -18,5 +19,6 @@ app.use(express.static(path.resolve(__dirname, '../public')));
 
 // Rutas
 app.use('/api/productos', productosRoutes);
+app.use('/api/productos-db', productosDbRoutes);
 
 export default app;
