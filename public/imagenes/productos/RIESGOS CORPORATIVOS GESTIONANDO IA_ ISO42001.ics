@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+METHOD:PUBLISH
+PRODID:-//LogMeIn//GoToWebinar//EN
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:America/Bogota
+LAST-MODIFIED:20260306T231828Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/Bogota
+X-LIC-LOCATION:America/Bogota
+BEGIN:STANDARD
+TZNAME:-05
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20260324T195242Z
+DTSTART;TZID=America/Bogota:20260326T190000
+DTEND;TZID=America/Bogota:20260326T200000
+SUMMARY:GoToWebinar - RIESGOS CORPORATIVOS GESTIONANDO IA: ISO42001
+LOCATION:GoToWebinar - Información de la llamada de conferencia a continu
+ ación
+UID:3a3a4af2-f28d-432d-a35e-5fad025a0307@goto.com
+ORGANIZER:info@itservice.com.co
+DESCRIPTION:1. Haga clic y únase en la fecha y la hora especificadas:\nht
+ tps://global.gotowebinar.com/join/1099797954953305942/570428163\nNota: E
+ s recomendable que no comparta este enlace. Es solo para usted.\n\nLa IA
+  ya está impactando decisiones clave en tu organización. El problema es 
+ que muchas empresas aún no controlan las amenazas invisibles que vienen 
+ con su adopción. \n\nEn este webinar ejecutivo descubrirás cómo ISO 4200
+ 1 ayuda a gobernar la IA\, fortalecer controles y reducir impactos corpo
+ rativos de forma responsable y alineada al negocio.\n\nY si conoces a co
+ legas o amigos a quienes este tema también pueda aportar valor\, compárt
+ eles este evento.\n
+X-ALT-DESC;FMTTYPE=text/html:<HTML><HEAD><TITLE></TITLE><BODY><FONT SIZE=
+ 2><b>1. Haga clic y únase en la fecha y la hora especificadas:</b></FONT
+ ><BR><FONT SIZE=2>https://global.gotowebinar.com/join/109979795495330594
+ 2/570428163</FONT><BR><FONT SIZE=2>Nota: Es recomendable que no comparta
+  este enlace. Es solo para usted.</FONT><BR><BR><FONT SIZE=2>La IA ya es
+ tá impactando decisiones clave en tu organización. El problema es que mu
+ chas empresas aún no controlan las amenazas invisibles que vienen con su
+  adopción. \n\nEn este webinar ejecutivo descubrirás cómo ISO 42001 ayud
+ a a gobernar la IA\, fortalecer controles y reducir impactos corporativo
+ s de forma responsable y alineada al negocio.\n\nY si conoces a colegas 
+ o amigos a quienes este tema también pueda aportar valor\, compárteles e
+ ste evento.</FONT><BR></BODY></HTML>
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
